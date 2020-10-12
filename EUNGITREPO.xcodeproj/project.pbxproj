@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2864428F2534453A001CA562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2864428E2534453A001CA562 /* AppDelegate.swift */; };
+		286442912534453A001CA562 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286442902534453A001CA562 /* SceneDelegate.swift */; };
+		286442932534453A001CA562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286442922534453A001CA562 /* ViewController.swift */; };
+		286442962534453A001CA562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286442942534453A001CA562 /* Main.storyboard */; };
+		286442982534453B001CA562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286442972534453B001CA562 /* Assets.xcassets */; };
+		2864429B2534453B001CA562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286442992534453B001CA562 /* LaunchScreen.storyboard */; };
+		286442A62534453D001CA562 /* EUNGITREPOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286442A52534453D001CA562 /* EUNGITREPOTests.swift */; };
+		286442B12534453D001CA562 /* EUNGITREPOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286442B02534453D001CA562 /* EUNGITREPOUITests.swift */; };
+		286442CB253446A7001CA562 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286442CA253446A7001CA562 /* ViewModel.swift */; };
+		286442D0253446C8001CA562 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286442CF253446C8001CA562 /* Repository.swift */; };
+		510FA53CE5AD17B5FAD8EDC2 /* Pods_EUNGITREPO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F89F8703B1537312F991620 /* Pods_EUNGITREPO.framework */; };
+		54B2FCEB934FA0DA90E9367F /* Pods_EUNGITREPO_EUNGITREPOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D35B97B2081AC2B4CD7EFB /* Pods_EUNGITREPO_EUNGITREPOUITests.framework */; };
+		D059E1867B3A307EF6208992 /* Pods_EUNGITREPOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACDE3DC766C8FDAB7D9DC0B /* Pods_EUNGITREPOTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		286442A22534453D001CA562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286442832534453A001CA562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2864428A2534453A001CA562;
+			remoteInfo = EUNGITREPO;
+		};
+		286442AD2534453D001CA562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286442832534453A001CA562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2864428A2534453A001CA562;
+			remoteInfo = EUNGITREPO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2864428B2534453A001CA562 /* EUNGITREPO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EUNGITREPO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2864428E2534453A001CA562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		286442902534453A001CA562 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		286442922534453A001CA562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		286442952534453A001CA562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		286442972534453B001CA562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2864429A2534453B001CA562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2864429C2534453B001CA562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286442A12534453D001CA562 /* EUNGITREPOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EUNGITREPOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286442A52534453D001CA562 /* EUNGITREPOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUNGITREPOTests.swift; sourceTree = "<group>"; };
+		286442A72534453D001CA562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286442AC2534453D001CA562 /* EUNGITREPOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EUNGITREPOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286442B02534453D001CA562 /* EUNGITREPOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUNGITREPOUITests.swift; sourceTree = "<group>"; };
+		286442B22534453D001CA562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286442CA253446A7001CA562 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		286442CF253446C8001CA562 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		35DED5AE91982843F8FB5DD2 /* Pods-EUNGITREPOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUNGITREPOTests.release.xcconfig"; path = "Target Support Files/Pods-EUNGITREPOTests/Pods-EUNGITREPOTests.release.xcconfig"; sourceTree = "<group>"; };
+		46A4D5E79A3D88A458503A80 /* Pods-EUNGITREPOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUNGITREPOTests.debug.xcconfig"; path = "Target Support Files/Pods-EUNGITREPOTests/Pods-EUNGITREPOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F89F8703B1537312F991620 /* Pods_EUNGITREPO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EUNGITREPO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D35B97B2081AC2B4CD7EFB /* Pods_EUNGITREPO_EUNGITREPOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EUNGITREPO_EUNGITREPOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A47A5B6ED8BB308520B9D5 /* Pods-EUNGITREPO-EUNGITREPOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUNGITREPO-EUNGITREPOUITests.debug.xcconfig"; path = "Target Support Files/Pods-EUNGITREPO-EUNGITREPOUITests/Pods-EUNGITREPO-EUNGITREPOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AACDE3DC766C8FDAB7D9DC0B /* Pods_EUNGITREPOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EUNGITREPOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B87EA52456CFAB6FB0666F /* Pods-EUNGITREPO-EUNGITREPOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUNGITREPO-EUNGITREPOUITests.release.xcconfig"; path = "Target Support Files/Pods-EUNGITREPO-EUNGITREPOUITests/Pods-EUNGITREPO-EUNGITREPOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4AEB9181C07B54E1EA7AE41 /* Pods-EUNGITREPO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUNGITREPO.debug.xcconfig"; path = "Target Support Files/Pods-EUNGITREPO/Pods-EUNGITREPO.debug.xcconfig"; sourceTree = "<group>"; };
+		CDB6D599FB1F1EC03E22FF1F /* Pods-EUNGITREPO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUNGITREPO.release.xcconfig"; path = "Target Support Files/Pods-EUNGITREPO/Pods-EUNGITREPO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286442882534453A001CA562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510FA53CE5AD17B5FAD8EDC2 /* Pods_EUNGITREPO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2864429E2534453D001CA562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D059E1867B3A307EF6208992 /* Pods_EUNGITREPOTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286442A92534453D001CA562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B2FCEB934FA0DA90E9367F /* Pods_EUNGITREPO_EUNGITREPOUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286442822534453A001CA562 = {
+			isa = PBXGroup;
+			children = (
+				2864428D2534453A001CA562 /* EUNGITREPO */,
+				286442A42534453D001CA562 /* EUNGITREPOTests */,
+				286442AF2534453D001CA562 /* EUNGITREPOUITests */,
+				2864428C2534453A001CA562 /* Products */,
+				8CDBC786ECB259F922708294 /* Pods */,
+				CAEB64760805424628AA3D72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2864428C2534453A001CA562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2864428B2534453A001CA562 /* EUNGITREPO.app */,
+				286442A12534453D001CA562 /* EUNGITREPOTests.xctest */,
+				286442AC2534453D001CA562 /* EUNGITREPOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2864428D2534453A001CA562 /* EUNGITREPO */ = {
+			isa = PBXGroup;
+			children = (
+				2864428E2534453A001CA562 /* AppDelegate.swift */,
+				286442902534453A001CA562 /* SceneDelegate.swift */,
+				286442922534453A001CA562 /* ViewController.swift */,
+				286442942534453A001CA562 /* Main.storyboard */,
+				286442972534453B001CA562 /* Assets.xcassets */,
+				286442992534453B001CA562 /* LaunchScreen.storyboard */,
+				2864429C2534453B001CA562 /* Info.plist */,
+				286442CA253446A7001CA562 /* ViewModel.swift */,
+				286442CF253446C8001CA562 /* Repository.swift */,
+			);
+			path = EUNGITREPO;
+			sourceTree = "<group>";
+		};
+		286442A42534453D001CA562 /* EUNGITREPOTests */ = {
+			isa = PBXGroup;
+			children = (
+				286442A52534453D001CA562 /* EUNGITREPOTests.swift */,
+				286442A72534453D001CA562 /* Info.plist */,
+			);
+			path = EUNGITREPOTests;
+			sourceTree = "<group>";
+		};
+		286442AF2534453D001CA562 /* EUNGITREPOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				286442B02534453D001CA562 /* EUNGITREPOUITests.swift */,
+				286442B22534453D001CA562 /* Info.plist */,
+			);
+			path = EUNGITREPOUITests;
+			sourceTree = "<group>";
+		};
+		8CDBC786ECB259F922708294 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4AEB9181C07B54E1EA7AE41 /* Pods-EUNGITREPO.debug.xcconfig */,
+				CDB6D599FB1F1EC03E22FF1F /* Pods-EUNGITREPO.release.xcconfig */,
+				A6A47A5B6ED8BB308520B9D5 /* Pods-EUNGITREPO-EUNGITREPOUITests.debug.xcconfig */,
+				B0B87EA52456CFAB6FB0666F /* Pods-EUNGITREPO-EUNGITREPOUITests.release.xcconfig */,
+				46A4D5E79A3D88A458503A80 /* Pods-EUNGITREPOTests.debug.xcconfig */,
+				35DED5AE91982843F8FB5DD2 /* Pods-EUNGITREPOTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CAEB64760805424628AA3D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F89F8703B1537312F991620 /* Pods_EUNGITREPO.framework */,
+				80D35B97B2081AC2B4CD7EFB /* Pods_EUNGITREPO_EUNGITREPOUITests.framework */,
+				AACDE3DC766C8FDAB7D9DC0B /* Pods_EUNGITREPOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2864428A2534453A001CA562 /* EUNGITREPO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286442B52534453D001CA562 /* Build configuration list for PBXNativeTarget "EUNGITREPO" */;
+			buildPhases = (
+				979A702280B7D35648B56B9E /* [CP] Check Pods Manifest.lock */,
+				286442872534453A001CA562 /* Sources */,
+				286442882534453A001CA562 /* Frameworks */,
+				286442892534453A001CA562 /* Resources */,
+				EF14BED5F93E2E56DCDD6128 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUNGITREPO;
+			productName = EUNGITREPO;
+			productReference = 2864428B2534453A001CA562 /* EUNGITREPO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		286442A02534453D001CA562 /* EUNGITREPOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286442B82534453D001CA562 /* Build configuration list for PBXNativeTarget "EUNGITREPOTests" */;
+			buildPhases = (
+				AD4DC81E78579F363898161A /* [CP] Check Pods Manifest.lock */,
+				2864429D2534453D001CA562 /* Sources */,
+				2864429E2534453D001CA562 /* Frameworks */,
+				2864429F2534453D001CA562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286442A32534453D001CA562 /* PBXTargetDependency */,
+			);
+			name = EUNGITREPOTests;
+			productName = EUNGITREPOTests;
+			productReference = 286442A12534453D001CA562 /* EUNGITREPOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		286442AB2534453D001CA562 /* EUNGITREPOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286442BB2534453D001CA562 /* Build configuration list for PBXNativeTarget "EUNGITREPOUITests" */;
+			buildPhases = (
+				555F863F530C95B28A42A270 /* [CP] Check Pods Manifest.lock */,
+				286442A82534453D001CA562 /* Sources */,
+				286442A92534453D001CA562 /* Frameworks */,
+				286442AA2534453D001CA562 /* Resources */,
+				A3B074EDD8EC4A7844A11595 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286442AE2534453D001CA562 /* PBXTargetDependency */,
+			);
+			name = EUNGITREPOUITests;
+			productName = EUNGITREPOUITests;
+			productReference = 286442AC2534453D001CA562 /* EUNGITREPOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286442832534453A001CA562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2864428A2534453A001CA562 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					286442A02534453D001CA562 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2864428A2534453A001CA562;
+					};
+					286442AB2534453D001CA562 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2864428A2534453A001CA562;
+					};
+				};
+			};
+			buildConfigurationList = 286442862534453A001CA562 /* Build configuration list for PBXProject "EUNGITREPO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 286442822534453A001CA562;
+			productRefGroup = 2864428C2534453A001CA562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2864428A2534453A001CA562 /* EUNGITREPO */,
+				286442A02534453D001CA562 /* EUNGITREPOTests */,
+				286442AB2534453D001CA562 /* EUNGITREPOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286442892534453A001CA562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2864429B2534453B001CA562 /* LaunchScreen.storyboard in Resources */,
+				286442982534453B001CA562 /* Assets.xcassets in Resources */,
+				286442962534453A001CA562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2864429F2534453D001CA562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286442AA2534453D001CA562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		555F863F530C95B28A42A270 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EUNGITREPO-EUNGITREPOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979A702280B7D35648B56B9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EUNGITREPO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B074EDD8EC4A7844A11595 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EUNGITREPO-EUNGITREPOUITests/Pods-EUNGITREPO-EUNGITREPOUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EUNGITREPO-EUNGITREPOUITests/Pods-EUNGITREPO-EUNGITREPOUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EUNGITREPO-EUNGITREPOUITests/Pods-EUNGITREPO-EUNGITREPOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4DC81E78579F363898161A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EUNGITREPOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF14BED5F93E2E56DCDD6128 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EUNGITREPO/Pods-EUNGITREPO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EUNGITREPO/Pods-EUNGITREPO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EUNGITREPO/Pods-EUNGITREPO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286442872534453A001CA562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286442932534453A001CA562 /* ViewController.swift in Sources */,
+				2864428F2534453A001CA562 /* AppDelegate.swift in Sources */,
+				286442D0253446C8001CA562 /* Repository.swift in Sources */,
+				286442CB253446A7001CA562 /* ViewModel.swift in Sources */,
+				286442912534453A001CA562 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2864429D2534453D001CA562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286442A62534453D001CA562 /* EUNGITREPOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286442A82534453D001CA562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286442B12534453D001CA562 /* EUNGITREPOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		286442A32534453D001CA562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2864428A2534453A001CA562 /* EUNGITREPO */;
+			targetProxy = 286442A22534453D001CA562 /* PBXContainerItemProxy */;
+		};
+		286442AE2534453D001CA562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2864428A2534453A001CA562 /* EUNGITREPO */;
+			targetProxy = 286442AD2534453D001CA562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		286442942534453A001CA562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286442952534453A001CA562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		286442992534453B001CA562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2864429A2534453B001CA562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		286442B32534453D001CA562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		286442B42534453D001CA562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286442B62534453D001CA562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AEB9181C07B54E1EA7AE41 /* Pods-EUNGITREPO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EUNGITREPO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cute.eunyeong.EUNGITREPO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		286442B72534453D001CA562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB6D599FB1F1EC03E22FF1F /* Pods-EUNGITREPO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EUNGITREPO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cute.eunyeong.EUNGITREPO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		286442B92534453D001CA562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A4D5E79A3D88A458503A80 /* Pods-EUNGITREPOTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EUNGITREPOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cute.eunyeong.EUNGITREPOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EUNGITREPO.app/EUNGITREPO";
+			};
+			name = Debug;
+		};
+		286442BA2534453D001CA562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DED5AE91982843F8FB5DD2 /* Pods-EUNGITREPOTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EUNGITREPOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cute.eunyeong.EUNGITREPOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EUNGITREPO.app/EUNGITREPO";
+			};
+			name = Release;
+		};
+		286442BC2534453D001CA562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A47A5B6ED8BB308520B9D5 /* Pods-EUNGITREPO-EUNGITREPOUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EUNGITREPOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cute.eunyeong.EUNGITREPOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EUNGITREPO;
+			};
+			name = Debug;
+		};
+		286442BD2534453D001CA562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B87EA52456CFAB6FB0666F /* Pods-EUNGITREPO-EUNGITREPOUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EUNGITREPOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cute.eunyeong.EUNGITREPOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EUNGITREPO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286442862534453A001CA562 /* Build configuration list for PBXProject "EUNGITREPO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286442B32534453D001CA562 /* Debug */,
+				286442B42534453D001CA562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286442B52534453D001CA562 /* Build configuration list for PBXNativeTarget "EUNGITREPO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286442B62534453D001CA562 /* Debug */,
+				286442B72534453D001CA562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286442B82534453D001CA562 /* Build configuration list for PBXNativeTarget "EUNGITREPOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286442B92534453D001CA562 /* Debug */,
+				286442BA2534453D001CA562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286442BB2534453D001CA562 /* Build configuration list for PBXNativeTarget "EUNGITREPOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286442BC2534453D001CA562 /* Debug */,
+				286442BD2534453D001CA562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286442832534453A001CA562 /* Project object */;
+}
